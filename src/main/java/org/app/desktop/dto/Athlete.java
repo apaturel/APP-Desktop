@@ -1,10 +1,15 @@
-import lombok.Getter;
-import lombok.Setter;
+package org.app.desktop.dto;
+
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
+import org.app.desktop.enumeration.Gender;
+
+import java.util.Date;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Athlete {
     private String lastName;
     private String firstName;
@@ -12,7 +17,3 @@ public class Athlete {
     private Gender gender;
 }
 
-public enum Gender {
-    Male,
-    Female
-}
