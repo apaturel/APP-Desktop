@@ -37,6 +37,7 @@ public class ActivityForm {
         monthSpinner.setEditor(editor);
         yearSpinner.setModel(new SpinnerNumberModel(currentYear, 1900, currentYear, 1));
         yearSpinner.setEditor(new JSpinner.NumberEditor(yearSpinner, "#"));
+        adjustDaySpinner();
         rpeSlider.setMinimum(0);
         rpeSlider.setMaximum(10);
         rpeSlider.setValue(0);

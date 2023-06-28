@@ -1,4 +1,4 @@
-package org.app.desktop.dto;
+package org.app.desktop.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +10,7 @@ import java.util.Date;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Athlete {
+public class AthleteModel {
     private String lastName;
     private String firstName;
     private Date birthDate;

@@ -1,4 +1,4 @@
-package org.app.desktop.dto;
+package org.app.desktop.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class WeeklyTrainingLoad {
+public class WeeklyTrainingLoadModel {
     private double totalLoad;
     private double monotony;
     private int constraint;
