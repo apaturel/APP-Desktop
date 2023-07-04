@@ -4,8 +4,8 @@ import org.app.desktop.form.ActivityForm;
 import javax.swing.*;
 import java.awt.*;
 
-public class Window extends JFrame {
-    public Window (){
+public class AddOrEditActivityWindow extends JFrame {
+    public AddOrEditActivityWindow(){
         super("Une fenêtre");
         setBounds(0,0, 600, 450);
         /* OU :
@@ -36,7 +36,7 @@ public class Window extends JFrame {
     }
 
     public static void main(String[] args) {
-        JFrame window = new Window();
+        JFrame window = new AddOrEditActivityWindow();
     }
 }
 
